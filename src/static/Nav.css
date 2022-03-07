@@ -1,0 +1,45 @@
+.nav-container {
+    background-color: #343633;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;  
+    justify-content: space-between;
+}
+
+.internal {
+    padding: 0 0 0 5px;
+    grid-area: internal;
+    display: flex;
+    list-style-type: none;
+}
+
+.external {
+    padding: 0 10px 0 0;
+    grid-area: external;
+    display: flex;
+    list-style-type: none;
+}
+
+.home-logo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+button {
+    border: 0;
+    background-color: inherit;
+    color: #0E7C7B;
+    font-size: 20px;
+}
+
+button:hover {
+    color: #EEA243;
+}
+
+.website-sections {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 5px;
+}
