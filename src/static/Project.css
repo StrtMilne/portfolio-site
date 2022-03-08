@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Space+Grotesk&display=swap');
+
+.project-container {
+    padding: 0;
+    margin: 20px;
+    width: 95%;
+}
+
+.head-container {
+    display: flex;
+    background-color: #343633;
+    border-radius: 4px 4px 0 0;
+}
+
+.project-name {
+    background-color: #343633;
+    color: #EEA243;
+    margin: 0;
+    width: calc(100% - 68px);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    border-radius: 0 4px 0 0;
+    padding: 10px 30px;
+}
+
+.project-link {
+    background-color: #343633;
+    border: none;
+    border-radius: 4px 0 0 0;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+
+.project-blurb {
+    background-color: #EAEBED;
+    border: solid 3px #EAEBED;
+    border-radius: 0 0 25px 4px;
+    font-family: 'Chivo', sans-serif;
+    margin: 0;
+    padding: 15px 20px;
+    display: flex; 
+    grid-area: text;  
+}
+ p {
+     text-align: left;
+ }

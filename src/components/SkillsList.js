@@ -12,9 +12,10 @@ const SkillsList = function () {
 
     return(
 
-        <ul className="list">
+        <ul className="list sidebar">
             {skillItems}      
         </ul>
+
 
     )
 }

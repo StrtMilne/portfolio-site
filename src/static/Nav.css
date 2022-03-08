@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Space+Grotesk&display=swap');
+
 .nav-container {
     background-color: #343633;
-    margin: 0;
-    padding: 0;
+    padding: 0 20px;
     display: flex;
     flex-flow: row;  
     justify-content: space-between;
@@ -32,6 +33,7 @@ button {
     background-color: inherit;
     color: #0E7C7B;
     font-size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 button:hover {

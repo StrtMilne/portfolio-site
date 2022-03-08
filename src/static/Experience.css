@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Space+Grotesk&display=swap');
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 30px;
+  background-color: #EAEBED;
+}
+
+
+/* Card class created so that line-container class can inheirt the height of the card text element - enables line to change based on quantity of text and subsequent height without having to hard-code values. 
+
+ */
+
+.card {
+  height: fit-content;
+  width:auto;
+  display: flex;
+}
+
+.card-text {
+  width: 600px;
+  height: fit-content;
+
+  background-color: #343633;
+  color: white;
+
+  border-radius: 20px 4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+    font-family: 'Chivo', sans-serif;
+}
+
+.head {
+  margin: 0;
+  padding: 20px 32px;
+  border-radius: 4px;
+  background-color: #343633;
+  color: #EEA243;
+
+  font-family: 'Space Grotesk', sans-serif;  font-weight: 500;
+  font-size: 24px;
+
+  line-height: 32px;
+}
+
+/* Accounts for shift in header in card-text with addition of 'top dot' classes */
+
+.non-initial {
+  margin: -20px 0 0 0;
+}
+
+.main-text {
+  margin: 0;
+  padding: 8px 32px 32px 62px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  line-height: 26px;
+  letter-spacing: 0.015em;
+}
+
+/* Created a single dot class to prevent need to duplicate code */
+
+.dot {
+  width: 14px;
+  height: 14px;
+
+  border: 3px solid #0E7C7B;
+  border-radius: 50%;
+
+  background-color: #0E7C7B;
+
+  position: relative;
+}
+
+/* Created posititions and additional styling for dots */
+
+.bottom {
+  position: relative;
+  top: 75px;
+  left: 2px;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  
+  border-top: 18px solid #0E7C7B;
+}
+
+.top {
+  background-color: #0E7C7B;
+
+  top: -10px;
+  left: 30px;
+}
+
+/* Line container inherits grid height if grid is direct parent, so needs to be within card class (above).
+*/
+
+.line-container {
+  display: flex;
+  flex-direction: row;
+
+  height: 100px;
+}
+
+.top-line {
+  width: 50.5px;
+  height: 33.5px;
+
+  border-bottom: 3px solid #0E7C7B;
+  border-left: 3px solid #0E7C7B;
+  border-radius:0 0 0 33.5px;
+
+  position: relative;
+  top: 10px;
+  left: 18.5px;
+
+}
+
+.bottom-line {
+    width: 400.5px;
+    height: 33.5px;
+  
+    border-top: 3px solid #0E7C7B;
+    border-right: 3px solid #0E7C7B;
+    border-radius: 0 33.5px 0 0;
+  
+    position: relative;
+    top: 44px;
+    left: 18.5px;
+  }
+
+  .divider {
+      width: 95%;
+      height: 4px;
+      background-color: #0E7C7B;
+      align-self: center;
+  }
