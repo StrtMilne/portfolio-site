@@ -5,8 +5,20 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding: 30px;
   background-color: #EAEBED;
+}
+
+.header-exp {
+    width: calc(100% - 30px);
+    height: 100px;
+    background-image: url("https://c1.peakpx.com/wallpaper/879/925/299/pasture-grass-herbage-field-nature-wallpaper.jpg");
+    background-position: 0% 10%;
+    color: #EEA243;
+    font-size: 60px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0 0 0 30px;
+    border-top: solid 4px #0E7C7B;
 }
 
 
@@ -18,10 +30,12 @@
   height: fit-content;
   width:auto;
   display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 0;
 }
 
 .card-text {
-  width: 600px;
+  width: auto;
   height: fit-content;
 
   background-color: #343633;
@@ -87,8 +101,7 @@ li {
 
 .bottom {
   position: relative;
-  top: 75px;
-  left: 2px;
+  left: calc(100% - 63px);
   width: 0; 
   height: 0; 
   border-left: 15px solid transparent;
@@ -101,7 +114,7 @@ li {
   background-color: #0E7C7B;
 
   top: -10px;
-  left: 30px;
+  left: 40px;
 }
 
 /* Line container inherits grid height if grid is direct parent, so needs to be within card class (above).
@@ -109,13 +122,12 @@ li {
 
 .line-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  height: 100px;
 }
 
 .top-line {
-  width: 50.5px;
+  width: 33.5px;
   height: 33.5px;
 
   border-bottom: 3px solid #0E7C7B;
@@ -123,13 +135,14 @@ li {
   border-radius:0 0 0 33.5px;
 
   position: relative;
-  top: 10px;
-  left: 18.5px;
+  top: -10px;
+  left: 48.5px;
+
 
 }
 
 .bottom-line {
-    width: 400.5px;
+    width: calc(100% - 135px);
     height: 33.5px;
   
     border-top: 3px solid #0E7C7B;
@@ -137,8 +150,8 @@ li {
     border-radius: 0 33.5px 0 0;
   
     position: relative;
-    top: 44px;
-    left: 18.5px;
+    left: 85px;
+    margin: -12.5px 0 0 0 ;
   }
 
   .divider {

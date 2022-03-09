@@ -14,6 +14,7 @@
 }
 
 
+
 @keyframes blink {
     0% { opacity: 1; }
     69% { opacity: 1; }
@@ -21,10 +22,12 @@
    100% { opacity: 0; }
 }
 .cursor {
-    height: 60px;
+    height: 62px;
     width: 40px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 5px;
     display: inline-block;
+    position: relative;
+    top: 2px;
     background-color: white;
     animation: blink 2s infinite;
 }
@@ -33,7 +36,8 @@
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    padding: 20px 0 10px 30px;
+    justify-content: center;
+    padding: 20px 0 10px 0;
 }
 
 .icon {

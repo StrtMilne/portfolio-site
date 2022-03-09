@@ -8,7 +8,6 @@ const Skill = function ({key, skill}) {
             <li className="list-item">
                 {skill}
             </li>
-            <div className="skill-line" />
         </>
     )
 }

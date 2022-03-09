@@ -2,7 +2,7 @@
 
 .nav-container {
     background-color: #343633;
-    padding: 0 20px;
+    padding: 0 20px 0 10px;
     display: flex;
     flex-flow: row;  
     justify-content: space-between;
@@ -10,14 +10,12 @@
 
 .internal {
     padding: 0 0 0 5px;
-    grid-area: internal;
     display: flex;
     list-style-type: none;
 }
 
 .external {
     padding: 0 10px 0 0;
-    grid-area: external;
     display: flex;
     list-style-type: none;
 }
@@ -26,6 +24,8 @@
     width: 50px;
     height: 50px;
     margin: 0;
+    position: relative;
+    top: 5px;
 }
 
 button {
@@ -44,4 +44,53 @@ button:hover {
     display: flex;
     flex-direction: column;
     margin: 0 0 0 5px;
+}
+
+@media (max-width: 302px) {
+
+    .nav-container {
+        background-color: #343633;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+
+    }
+
+    .internal {
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .external {
+        padding: 12px 10px 0 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+    }
+    
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .home-logo {
+        padding: 5px 0 0 0;
+        width:35px;
+        height: 35px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .website-sections {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+
 }
