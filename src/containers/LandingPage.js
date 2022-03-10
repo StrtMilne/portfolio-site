@@ -60,7 +60,9 @@ const LandingPage = function () {
                 </div>
             </div>
             <h2 className="landing-title">&#125;;</h2>
-            <h3 className="landing-experience">/* 5+ years experience in press and PR with public, private and third sector organisations */</h3>
+            <br/>
+            <h3 className="landing-experience">// Career changer and CodeClan bootcamp graduate</h3>
+            <h3 className="landing-experience">// 5+ years experience in press and PR with public, private and third sector organisations</h3>
         </div>
     )
 

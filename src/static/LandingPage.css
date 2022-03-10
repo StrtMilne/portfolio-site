@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Space+Grotesk&display=swap');
 
 .landing-container {
+    border-top: 4px solid #EEA243;
+    border-bottom: 4px solid #EEA243;
     background-color: #0E7C7B;
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     padding: 20px;
-    min-height:100vh;
+    min-height: calc(100vh - 136px);
+
 }
 
 .landing-name {
