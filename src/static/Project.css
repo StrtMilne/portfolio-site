@@ -33,12 +33,11 @@
 }
 
 .project-blurb {
-    background-color: #EAEBED;
-    border: solid 3px #EAEBED;
+    background-color: white;
     border-radius: 0 0 25px 4px;
     font-family: 'Chivo', sans-serif;
     margin: 0;
-    padding: 15px 20px;
+    padding: 10px 5px;
     display: flex; 
     grid-area: text;  
 }

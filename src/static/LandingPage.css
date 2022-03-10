@@ -16,7 +16,9 @@
     display: inline;
 }
 
-
+.landing-title {
+    font-size: 35px;
+}
 
 @keyframes blink {
     0% { opacity: 1; }

@@ -38,6 +38,8 @@
   width: auto;
   height: fit-content;
 
+  margin: 10px 0 0 0;
+
   background-color: #343633;
   color: white;
 
@@ -113,7 +115,7 @@ li {
 .top {
   background-color: #0E7C7B;
 
-  top: -10px;
+  top: -20px;
   left: 40px;
 }
 
@@ -135,7 +137,7 @@ li {
   border-radius:0 0 0 33.5px;
 
   position: relative;
-  top: -10px;
+  top: -20px;
   left: 48.5px;
 
 
@@ -151,7 +153,7 @@ li {
   
     position: relative;
     left: 85px;
-    margin: -12.5px 0 0 0 ;
+    margin: -22.5px 0 0 0 ;
   }
 
   .divider {

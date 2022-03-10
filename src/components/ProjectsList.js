@@ -8,7 +8,7 @@ const ProjectsList = function () {
         {
             name: "Pandemic boardgame | Ongoing | Java, JavaScript",
             link: "https://github.com/StrtMilne/Mini-Pandemic-Game",
-            blurb: "Browser game that based on the boardgame 'Pandemic. Back-end and game logic written in Java modelling 2 decks of cards, players pieces (including different roles) and numerous different board pieces. Front end to be written in JavaScript and React."
+            blurb: "Browser game based on the boardgame 'Pandemic'. Back-end and game logic written in Java modelling 2 decks of cards, players pieces (including different roles) and numerous different board pieces. Front end to be written in JavaScript and React."
         },
         {
             name: "Monacode | 9 days | Java, JavaScript",
