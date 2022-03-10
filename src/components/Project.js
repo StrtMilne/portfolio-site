@@ -12,6 +12,7 @@ const Skill = function ({key, project}) {
                 <h1 className="project-name">{project.name}</h1>
             </div>
             <p className="project-blurb">{project.blurb}</p>
+            {project.site?<a href= {project.site} className="deployed" target="_blank">Visit the site!</a> : null }
           
         </div>
     )

@@ -29,7 +29,8 @@ const ProjectsList = function () {
         {
             name: "Bovilophone | 1 day | JavaScript",
             link: "https://github.com/StrtMilne/Bovilophone",
-            blurb: "A very silly front-end web app inspired by surreal comedy podcast 'The Beef and Dairy Network'. Users can play a xylophone that repeats the phrases 'rich beef sausages' in the tone struck. Created during holidays at CodeClan to consolidate JavaScript and React."
+            blurb: "A very silly front-end web app inspired by surreal comedy podcast 'The Beef and Dairy Network'. Users can play a xylophone that repeats the phrases 'rich beef sausages' in the tone struck. Created during holidays at CodeClan to consolidate JavaScript and React.",
+            site: "https://bovilophone.netlify.app/"
         }
     ];
 

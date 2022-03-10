@@ -46,4 +46,13 @@ p {
      text-align: left;
 }
 
-
+.deployed {
+    background-color: #0E7C7B;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px 10px;
+}
