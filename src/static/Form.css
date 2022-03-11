@@ -64,6 +64,19 @@ input {
     font-family: 'Chivo', sans-serif;
 }
 
+.header-contact{
+    width: calc(100% - 30px);
+    height: 96px;
+    background-image: url("https://c1.peakpx.com/wallpaper/879/925/299/pasture-grass-herbage-field-nature-wallpaper.jpg");
+    background-position: 55% 9%;
+    color: #EEA243;
+    font-size: 60px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0 0 0 30px;
+    border-top: solid 4px #0E7C7B;
+}
+
 @media (max-width: 728px) {
     .thanks {
 

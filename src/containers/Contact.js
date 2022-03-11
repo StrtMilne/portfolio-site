@@ -38,6 +38,7 @@ const Contact = function () {
 
     return(
         <div className="outer-page">
+            <h1 className="header-contact">Contact</h1>
             <h4 className="text">If you'd like to get in touch please use the form below.</h4>
             <h4 className="text">It directs to my email, so if you'd prefer to get in touch directly, please do at strtmilne@gmail.com.</h4>
             <div className="outer-form">

@@ -7,7 +7,7 @@
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     padding: 20px;
-    min-height: calc(100vh - 136px);
+    min-height: calc(100vh - 163px);
 
 }
 
@@ -19,6 +19,11 @@
 .landing-title {
     font-size: 35px;
 }
+
+.landing-title {
+    margin: 10px;
+}
+
 
 @keyframes blink {
     0% { opacity: 1; }
