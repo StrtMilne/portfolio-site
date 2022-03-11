@@ -11,6 +11,8 @@ const Contact = function () {
         message: '',
         reply_to: '',
       });
+
+    const [sent, setSent] = useState(false);
     
       const onSubmit = (e) => {
         e.preventDefault();
@@ -26,6 +28,8 @@ const Contact = function () {
             .catch((err) => {
               console.log('FAILED...', err);
             });
+
+        setSent(true;)
       };
     
       const handleChange = (e) => {
@@ -33,39 +37,42 @@ const Contact = function () {
       };
 
     return(
-        <div className="outer-form">
-            <form onSubmit={onSubmit}>
-                <input
-                    type='text'
-                    name='from_name'
-                    placeholder='Your name'
-                    value={toSend.from_name}
-                    onChange={handleChange}
-                />
-                {/* <input
-                    type='text'
-                    name='to_name'
-                    placeholder='to name'
-                    value={toSend.to_name}
-                    onChange={handleChange}
-                /> */}
-                <textarea
-                    name='message'
-                    placeholder='Your message'
-                    className="message"
-                    value={toSend.message}
-                    onChange={handleChange}
-                />
-                <input
-                    type='text'
-                    name='reply_to'
-                    placeholder='Your email'
-                    value={toSend.reply_to}
-                    onChange={handleChange}
-                />
-                <button type='submit' className="submit">Submit</button>
-            </form>  
-        </div>
+        <>
+            <div className="outer-form">
+                <form onSubmit={onSubmit}>
+                    <input
+                        type='text'
+                        name='from_name'
+                        placeholder='Your name'
+                        value={toSend.from_name}
+                        onChange={handleChange}
+                    />
+                    {/* <input
+                        type='text'
+                        name='to_name'
+                        placeholder='to name'
+                        value={toSend.to_name}
+                        onChange={handleChange}
+                    /> */}
+                    <textarea
+                        name='message'
+                        placeholder='Your message'
+                        className="message"
+                        value={toSend.message}
+                        onChange={handleChange}
+                    />
+                    <input
+                        type='text'
+                        name='reply_to'
+                        placeholder='Your email'
+                        value={toSend.reply_to}
+                        onChange={handleChange}
+                    />
+                    <button type='submit' className="submit">Submit</button>
+                </form>  
+            </div>
+            {sent? <h3>Thank you for your email! I'll respond as soon as I can!</h3>: null}
+        </>
     )
 }
 

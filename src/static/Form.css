@@ -30,10 +30,20 @@ input {
     color: white;
 }
 
+.submit:hover {
+    background-color: #EEA243;
+    border-radius: 4px;
+    color: black;
+}
+
 .message {
     width: 90%;
     height:60px;
     margin: 15px;
     border-radius: 4px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: #EEA243;
 }
