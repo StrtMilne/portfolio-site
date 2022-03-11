@@ -19,6 +19,9 @@ const NavBar = function () {
                     <NavLink to="/experience">
                         <button>Experience</button>
                     </NavLink>
+                    <NavLink to="/contact">
+                        <button>Contact me</button>
+                    </NavLink>
                 </li>
             </ul>
             <ul className="external">
