@@ -34,7 +34,7 @@ const Contact = function () {
 
     return(
         <div className="outer-form">
-            <form>
+            <form onSubmit={onSubmit}>
                 <input
                     type='text'
                     name='from_name'
@@ -63,7 +63,7 @@ const Contact = function () {
                     value={toSend.reply_to}
                     onChange={handleChange}
                 />
-                <button type='submit' className="submit" onSubmit={onSubmit}>Submit</button>
+                <button type='submit' className="submit">Submit</button>
             </form>  
         </div>
     )
