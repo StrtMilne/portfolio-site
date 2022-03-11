@@ -40,11 +40,9 @@
     padding: 10px 5px;
     display: flex; 
     grid-area: text;  
+    text-align: left;
 }
 
-p {
-     text-align: left;
-}
 
 .deployed {
     background-color: #0E7C7B;
