@@ -29,7 +29,7 @@ const Contact = function () {
               console.log('FAILED...', err);
             });
 
-        setSent(true;)
+        setSent(true);
       };
     
       const handleChange = (e) => {
@@ -38,6 +38,8 @@ const Contact = function () {
 
     return(
         <>
+            <p>If you'd like to get in touch please use the form below</p>
+            <p>It directs to my email, so if you'd prefer to get in touch directly, please do at strtmilne@gmail.com</p>
             <div className="outer-form">
                 <form onSubmit={onSubmit}>
                     <input
