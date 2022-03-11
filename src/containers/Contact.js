@@ -63,7 +63,7 @@ const Contact = function () {
                     value={toSend.reply_to}
                     onChange={handleChange}
                 />
-                <button type='submit' className="submit">Submit</button>
+                <button type='submit' className="submit" onSubmit={onSubmit}>Submit</button>
             </form>  
         </div>
     )
