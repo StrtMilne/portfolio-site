@@ -15,7 +15,7 @@
 }
 
 .external {
-    padding: 0 10px 0 0;
+    padding: 16px 10px 0 0;
     display: flex;
     list-style-type: none;
 }
@@ -25,7 +25,7 @@
     height: 50px;
     margin: 0;
     position: relative;
-    top: 5px;
+    top: 18px;
 }
 
 button {
@@ -72,14 +72,15 @@ button:hover {
     }
     
     img {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 
     .home-logo {
-        padding: 5px 0 0 0;
+        padding: 0;
         width:35px;
         height: 35px;
+        top: 12px;
     }
 
     button {

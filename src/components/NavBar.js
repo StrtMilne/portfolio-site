@@ -20,7 +20,7 @@ const NavBar = function () {
                         <button>Experience</button>
                     </NavLink>
                     <NavLink to="/contact">
-                        <button>Contact me</button>
+                        <button>Contact</button>
                     </NavLink>
                 </li>
             </ul>

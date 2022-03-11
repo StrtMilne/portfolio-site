@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Space+Grotesk&display=swap');
+
 .outer-form {
     display: flex;
     flex-direction: column;
@@ -12,7 +14,7 @@ form {
     border-radius: 10px;
     align-items: center;
     width: 80%;
-    margin: 40px;
+    margin: 20px 40px;
 }
 
 input {
@@ -21,13 +23,14 @@ input {
     margin: 15px;
     border-radius: 4px;
     border: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Chivo', sans-serif;
 }
 
 .submit {
     background-color: #EEA243;
     border-radius: 4px;
     color: white;
+    font-family: 'Chivo', sans-serif;
 }
 
 .submit:hover {
@@ -41,9 +44,35 @@ input {
     height:60px;
     margin: 15px;
     border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Chivo', sans-serif;
 }
 
-h3 {
+.thanks {
     color: #EEA243;
+    align-self: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+.outer-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    align-self: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+@media (max-width: 728px) {
+    .thanks {
+
+        align-self: center;
+        margin: 10px 40px;
+    }
+
+    .text {
+        align-self: center;
+        margin: 15px 40px;
+    }
 }

@@ -37,9 +37,9 @@ const Contact = function () {
       };
 
     return(
-        <>
-            <p>If you'd like to get in touch please use the form below</p>
-            <p>It directs to my email, so if you'd prefer to get in touch directly, please do at strtmilne@gmail.com</p>
+        <div className="outer-page">
+            <h4 className="text">If you'd like to get in touch please use the form below.</h4>
+            <h4 className="text">It directs to my email, so if you'd prefer to get in touch directly, please do at strtmilne@gmail.com.</h4>
             <div className="outer-form">
                 <form onSubmit={onSubmit}>
                     <input
@@ -73,8 +73,8 @@ const Contact = function () {
                     <button type='submit' className="submit">Submit</button>
                 </form>  
             </div>
-            {sent? <h3>Thank you for your email! I'll respond as soon as I can!</h3>: null}
-        </>
+            {sent? <h3 className="thanks">Thank you for your email! I'll respond as soon as I can!</h3>: null}
+        </div>
     )
 }
 
