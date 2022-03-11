@@ -41,27 +41,22 @@ const Contact = function () {
             <h4 className="text">If you'd like to get in touch please use the form below.</h4>
             <h4 className="text">It directs to my email, so if you'd prefer to get in touch directly, please do at strtmilne@gmail.com.</h4>
             <div className="outer-form">
-                <form onSubmit={onSubmit}>
+                <form onSubmit={onSubmit} className="contact-form">
                     <input
                         type='text'
                         name='from_name'
                         placeholder='Your name'
                         value={toSend.from_name}
                         onChange={handleChange}
+                        required
                     />
-                    {/* <input
-                        type='text'
-                        name='to_name'
-                        placeholder='to name'
-                        value={toSend.to_name}
-                        onChange={handleChange}
-                    /> */}
                     <textarea
                         name='message'
                         placeholder='Your message'
                         className="message"
                         value={toSend.message}
                         onChange={handleChange}
+                        required
                     />
                     <input
                         type='text'
@@ -69,6 +64,7 @@ const Contact = function () {
                         placeholder='Your email'
                         value={toSend.reply_to}
                         onChange={handleChange}
+                        required
                     />
                     <button type='submit' className="submit">Submit</button>
                 </form>  

@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-form {
+.contact-form {
     background-color: #0E7C7B;
     display: flex;
     flex-direction: column;
