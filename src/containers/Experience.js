@@ -100,7 +100,7 @@ const Experience = function () {
             <ul class="main-text">
                 <li>5 years studying analytic philosophy</li>
                 <li>University of Glasgow - MA(hons) 2:1</li>
-                <li>Univeristy of Edinburgh - MSc(research) merit</li>
+                <li>University of Edinburgh - MSc(research) merit</li>
                 <li>Extensive formal logic</li>
                 <li>Developed problem solving skills</li>
                 <li>Managed time efficiently to produce work</li>
